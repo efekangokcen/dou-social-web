@@ -72,7 +72,7 @@ const PLATFORMS = [
     name: "WhatsApp",
     Logo: WhatsAppLogo,
     color: "#25D366",
-    href: "https://wa.me/905300845468",
+    href: "https://wa.me/905550000000",
   },
   {
     name: "Google",

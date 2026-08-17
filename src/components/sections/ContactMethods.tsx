@@ -17,7 +17,7 @@ const METHODS = [
   {
     num: "01",
     key: "whatsapp",
-    href: "https://wa.me/905300845468",
+    href: "https://wa.me/905550000000",
     line1: "+90 530",
     line2: "084 54 68",
     external: true,

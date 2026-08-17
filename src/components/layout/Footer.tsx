@@ -105,7 +105,7 @@ export function Footer() {
               <p>Merkezefendi / Denizli</p>
               <p>
                 <a
-                  href="https://wa.me/905300845468"
+                  href="https://wa.me/905550000000"
                   className="transition hover:text-ink"
                 >
                   +90 555 000 00 00

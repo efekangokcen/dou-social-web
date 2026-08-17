@@ -61,7 +61,7 @@ export async function FinalCTA() {
               {t("ctaPrimary")}
             </ButtonLink>
             <ButtonLink
-              href="https://wa.me/905300845468"
+              href="https://wa.me/905550000000"
               variant="secondary"
               size="lg"
               className="border-mute-700 text-paper hover:bg-paper hover:text-ink"
