@@ -1,74 +1,105 @@
-# DOU Social — AI-Powered Digital Marketing Agency Platform
+# 🌐 DOU Social — AI-Powered Digital Marketing Agency Platform
 
-> Full-stack marketing website with AI social media auditing, influencer marketplace, hybrid blog engine, and multi-channel lead generation.
+> **Full-stack marketing website with AI social media auditing, influencer marketplace, hybrid blog engine, and multi-channel lead generation.**
 
-![DOU Social Platform](public/videos/hero-bg-poster.jpg)
+DOU Social Web is a high-performance, AI-integrated digital marketing platform. It bridges public client acquisition and automated audit intelligence, featuring an automated social media audit engine powered by OpenAI GPT-4o, an influencer portfolio showcase, and localized programmatic SEO landing pages.
+
+**Developed by Ali Efekan Gökcen** | [LinkedIn](https://www.linkedin.com/in/efekangokcen/) | [GitHub](https://github.com/efekangokcen)
+
+---
 
 ## ✨ Key Features
 
-- **🤖 AI-Powered Social Media Audit**: GPT-4o text + vision analysis, Turkey-specific benchmarks, and branded PDF reports.
-- **👥 Influencer Marketing Hub**: Application forms, public directory with video modals, and category filtering.
-- **📝 Hybrid Blog Engine**: Static MDX + dynamic Supabase articles, JSON-LD schema, and reading time estimation.
-- **📩 Multi-channel Lead Generation**: Contact forms, quote wizards, strategy booking, and digital checkup.
-- **🗺️ Programmatic SEO Landing Pages**: Localized city-specific pages with rich structured data.
-- **⭐ Live Google Reviews Integration**: Places API with ISR caching.
-- **📱 Client Case Studies**: Deep-dive layouts with engaging UI.
-- **🌍 Internationalization**: Turkish + English support via `next-intl`.
-- **🛡️ Anti-spam Security**: reCAPTCHA v3, honeypot traps, and IP-based rate limiting.
-- **🎨 Fluid UI & UX**: Framer Motion animations and Lenis smooth scrolling.
+- **🤖 AI-Powered Social Media & Marketing Audit**:
+  - **Manual Metric Analysis & Vision Mode**: Accepts manual inputs or social media profile screenshots for automated OCR/Vision data extraction via OpenAI GPT-4o.
+  - Turkey-specific industry benchmarks (E-commerce, Healthcare, B2B, Gastronomy, Architecture, Manufacturing).
+  - Generates 30-60-90 day growth roadmaps, performance scoring (0-100), and client-side downloadable branded PDF reports.
+- **👥 Influencer Marketing Hub**:
+  - Public creator directory with category filtering, engagement statistics, and embedded video reels.
+  - Multi-step influencer application workflow with portfolio validation.
+- **📝 Hybrid Blog Engine**:
+  - Blended architecture combining local static MDX articles with dynamic cloud-stored articles from Supabase.
+  - Structured JSON-LD Article Schema, reading time calculation, and responsive typography.
+- **📩 Multi-Channel Lead Generation**:
+  - Interactive quote & budget estimation wizard (`/teklif-al`).
+  - Digital checkup & brand audit request system.
+  - 1-on-1 strategy consultation booking interface.
+- **🗺️ Programmatic Local SEO Engine**:
+  - Localized landing pages for regional market domination with deep JSON-LD structured schemas (`LocalBusiness`, `Service`, `FAQPage`, `Breadcrumb`).
+- **⭐ Live Google Reviews Integration**: Server-side Google Places API integration with Incremental Static Regeneration (ISR) caching.
+- **🌍 Internationalization (i18n)**: Native bilingual routing (Turkish & English) via `next-intl`.
+- **🛡️ Bot & Spam Defense**: Google reCAPTCHA v3, honeypot fields, and IP-based rate limiting.
+- **🎨 Modern Aesthetic**: Micro-interactions with Framer Motion and smooth kinetic scrolling via Lenis.
+
+---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-| ---------- | ------- |
-| **Next.js 16 (App Router)** | Core Framework |
-| **React 19** | UI Library |
-| **TypeScript** | Type Safety |
-| **Tailwind CSS v4** | Styling |
-| **Supabase** | Database & Storage |
-| **OpenAI GPT-4o** | AI Audit Analysis |
-| **Google Places API** | Reviews Integration |
-| **next-intl** | Internationalization |
-| **Framer Motion** | Animations |
-| **MDX** | Blog Content |
-| **jsPDF** | PDF Report Generation |
-| **Zod** | Validation |
+| Layer | Technology |
+| :--- | :--- |
+| **Framework** | Next.js 16 (App Router, Server Actions, React 19, Turbopack) |
+| **Language** | TypeScript 5 |
+| **Styling & Motion** | Tailwind CSS v4, Framer Motion, Lenis Smooth Scroll |
+| **Cloud Database & Storage** | Supabase (PostgreSQL & Object Storage) |
+| **AI / Machine Learning** | OpenAI GPT-4o (Text Generation & Vision Analysis) |
+| **External APIs** | Google Places API (New V1), Google reCAPTCHA v3 |
+| **Content Engine** | MDX (`next-mdx-remote`, `gray-matter`, `remark-gfm`) |
+| **Document Generation** | jsPDF & html2canvas |
+
+---
+
+## 🗄️ Database & Cloud Architecture
+
+The platform connects to a **Supabase Cloud (PostgreSQL)** backend for storing audit histories, dynamic blog posts, case studies, and influencer rosters.
+
+- Real production connection strings are kept in secure cloud environment variables.
+- The repository includes all **SQL schema definitions** (`supabase/`) necessary to provision the required tables (`audits`, `contacts`, `blog_posts`, `projects`, `influencer_basvurulari`) and storage buckets.
+
+---
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+### Prerequisites
+- Node.js 18+ & pnpm / npm
+- A Supabase Project
+- OpenAI API Key (for the AI audit tool)
+
+### Setup
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/dou-social-web.git
+   git clone https://github.com/efekangokcen/dou-social-web.git
    cd dou-social-web
    ```
 
-2. Install dependencies:
+2. **Install dependencies**
    ```bash
-   npm install
-   # or
    pnpm install
+   # or
+   npm install
    ```
 
-3. Setup environment variables:
-   Copy `.env.example` to `.env.local` and fill in your keys.
+3. **Configure Environment Variables**
    ```bash
    cp .env.example .env.local
    ```
+   Add your Supabase URL, Service Key, OpenAI API Key, and reCAPTCHA keys to `.env.local`.
 
-4. Run the development server:
+4. **Start Development Server**
    ```bash
-   npm run dev
-   # or
    pnpm dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
 ## 👨‍💻 Developer
 
-**Developed by Ali Efekan Gökcen**  
-[LinkedIn Profile](https://www.linkedin.com/in/aliefekangokcen/) | [GitHub Profile](https://github.com/aliefekangokcen)
+**Ali Efekan Gökcen**  
+- [LinkedIn Profile](https://www.linkedin.com/in/efekangokcen/)
+- [GitHub Profile](https://github.com/efekangokcen)
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
