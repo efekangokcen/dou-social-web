@@ -60,10 +60,10 @@ export const siteConfig = {
 
   // ── Sosyal medya ─────────────────────────────────────────────────────
   social: {
-    instagram: "https://www.instagram.com/dou.social",
-    linkedin:  "https://www.linkedin.com/company/dou-dijital-marketing/",
-    youtube:   "https://www.youtube.com/@DouSocial",
-    facebook:  "https://www.facebook.com/profile.php?id=61587124940165",
+    instagram: "https://www.instagram.com",
+    linkedin:  "https://www.linkedin.com",
+    youtube:   "https://www.youtube.com",
+    facebook:  "https://www.facebook.com",
     whatsapp:  "https://wa.me/905555555555",
   },
 
