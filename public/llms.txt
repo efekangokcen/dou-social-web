@@ -4,7 +4,7 @@
 
 ## Şirket
 
-- İletişim: [İletişim](https://www.dousocial.com/iletisim) — telefon +90 530 084 54 68, e-posta info@dousocial.com, adres Zafer Mah. Zafer Cd. No: 60/1, Merkezefendi/Denizli
+- İletişim: [İletişim](https://www.dousocial.com/iletisim) — telefon +90 555 000 00 00, e-posta info@example.com, adres Zafer Mah. Zafer Cd. No: 60/1, Merkezefendi/Denizli
 - Hakkımızda: [Hakkımızda](https://www.dousocial.com/hakkimizda)
 - Sıkça Sorulan Sorular: [SSS](https://www.dousocial.com/sss)
 - Ücretsiz sosyal medya analizi (DouAI): [Analiz Aracı](https://www.dousocial.com/audit)

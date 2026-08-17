@@ -220,7 +220,7 @@ function DrawerContent({
               {tS("ctaPrimary")}
             </Link>
             <a
-              href="tel:+905300845468"
+              href="tel:+90 555 000 00 00"
               className="flex-1 rounded-full border border-mute-300 py-3 text-center text-sm font-semibold text-ink transition-all duration-200 hover:border-ink hover:bg-mute-50"
             >
               {tS("ctaSecondary")}

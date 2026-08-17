@@ -127,8 +127,8 @@ const doc = new Document({
       heading("1. Veri Sorumlusu"),
       bulletItem("Veri Sorumlusu: Dou Social"),
       bulletItem("Adres: Zafer, Zafer Cd. No: 60, 20020 Denizli Merkezefendi/Denizli"),
-      bulletItem("Telefon: +90 530 084 5468"),
-      bulletItem("E-posta: info@dousocial.com"),
+      bulletItem("Telefon: +90 555 000 00 00"),
+      bulletItem("E-posta: info@example.com"),
 
       rule(),
 
@@ -166,7 +166,7 @@ const doc = new Document({
 
       // 7
       heading("7. İlgili Kişinin Hakları"),
-      body("KVKK’nın 11. maddesi uyarınca; verilerinizin işlenip işlenmediğini öğrenme, düzeltme talep etme ve silinmesini isteme haklarına sahipsiniz. Taleplerinizi info@dousocial.com adresine iletebilirsiniz. Başvurularınız yasal süre olan en geç 30 gün içinde sonuçlandırılır."),
+      body("KVKK’nın 11. maddesi uyarınca; verilerinizin işlenip işlenmediğini öğrenme, düzeltme talep etme ve silinmesini isteme haklarına sahipsiniz. Taleplerinizi info@example.com adresine iletebilirsiniz. Başvurularınız yasal süre olan en geç 30 gün içinde sonuçlandırılır."),
 
       rule(),
 

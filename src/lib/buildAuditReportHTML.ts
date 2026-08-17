@@ -312,7 +312,7 @@ export function buildAuditReportHTML(data: AuditReportData): string {
         <td style="text-align:right;vertical-align:middle;padding:0;">
           <div style="font-size:9px;font-weight:700;color:rgba(255,210,210,0.9);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:4px;">Sosyal Medya Performans Raporu</div>
           <div style="font-size:8px;color:rgba(255,190,190,0.75);margin-bottom:2px;">${date}</div>
-          <div style="font-size:7.5px;color:rgba(255,180,180,0.6);">dousocial.com &nbsp;·&nbsp; +90 530 084 54 68</div>
+          <div style="font-size:7.5px;color:rgba(255,180,180,0.6);">dousocial.com &nbsp;·&nbsp; +90 555 000 00 00</div>
         </td>
       </tr>
     </table>
@@ -390,8 +390,8 @@ export function buildAuditReportHTML(data: AuditReportData): string {
             <div style="font-size:8.5px;color:#9ca3af;line-height:1.65;margin-bottom:12px;">DOU Social uzmanları, rapordaki her eksikliği sistematik şekilde kapatmak için hazır. Ücretsiz strateji görüşmesinde size özel büyüme planı oluşturalım.</div>
             <table style="border-collapse:collapse;">
               <tr>
-                <td style="padding-right:20px;white-space:nowrap;"><span style="font-size:8.5px;color:#d1fae5;font-weight:600;">📞 +90 530 084 54 68</span></td>
-                <td style="padding-right:20px;white-space:nowrap;"><span style="font-size:8.5px;color:#dbeafe;font-weight:600;">✉ info@dousocial.com</span></td>
+                <td style="padding-right:20px;white-space:nowrap;"><span style="font-size:8.5px;color:#d1fae5;font-weight:600;">📞 +90 555 000 00 00</span></td>
+                <td style="padding-right:20px;white-space:nowrap;"><span style="font-size:8.5px;color:#dbeafe;font-weight:600;">✉ info@example.com</span></td>
                 <td style="white-space:nowrap;"><span style="font-size:8.5px;color:#fce7f3;font-weight:600;">🌐 dousocial.com</span></td>
               </tr>
             </table>

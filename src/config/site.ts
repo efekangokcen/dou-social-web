@@ -46,7 +46,7 @@ export const siteConfig = {
   contact: {
     phone:        "0 (555) 555 55 55",
     phoneTel:     "+905555555555",          // tel: linki için
-    email:        "info@dousocial.com",
+    email:        "info@example.com",
     invoiceEmail: "info@yourdomain.com",
     website:      "www.dousocial.com",
     location:     "Your City · Country",

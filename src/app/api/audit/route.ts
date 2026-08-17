@@ -178,7 +178,7 @@ DOU Social ile çalışan benzer sektör müşterilerinde ortalama:
 - 6. ayda %X-%Y takipçi/abone büyümesi
 - Dönüşüm başına maliyet %X-%Y düşüş
 
-Bu rapor DOU Social tarafından hazırlanmıştır. Ücretsiz strateji görüşmesi için: +90 530 084 54 68 veya info@dousocial.com
+Bu rapor DOU Social tarafından hazırlanmıştır. Ücretsiz strateji görüşmesi için: +90 555 000 00 00 veya info@example.com
 
 
 YANIT FORMATI — BUNU MUTLAKA UYGULA:

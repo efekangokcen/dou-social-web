@@ -25,7 +25,7 @@ const METHODS = [
   {
     num: "02",
     key: "phone",
-    href: "tel:+905300845468",
+    href: "tel:+90 555 000 00 00",
     line1: "+90 530",
     line2: "084 54 68",
     external: false,
@@ -33,7 +33,7 @@ const METHODS = [
   {
     num: "03",
     key: "email",
-    href: "mailto:info@dousocial.com",
+    href: "mailto:info@example.com",
     line1: "info@",
     line2: "dousocial.com",
     external: false,

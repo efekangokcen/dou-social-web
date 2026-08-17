@@ -99,10 +99,10 @@ export function KVKKConsentField() {
         {/* Footer */}
         <div className="sticky bottom-0 flex items-center justify-between border-t border-mute-100 bg-paper px-8 py-4">
           <a
-            href="mailto:info@dousocial.com"
+            href="mailto:info@example.com"
             className="text-xs text-mute-400 underline underline-offset-2 hover:text-accent"
           >
-            info@dousocial.com
+            info@example.com
           </a>
           <button
             type="button"

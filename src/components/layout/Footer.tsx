@@ -108,15 +108,15 @@ export function Footer() {
                   href="https://wa.me/905300845468"
                   className="transition hover:text-ink"
                 >
-                  +90 530 084 54 68
+                  +90 555 000 00 00
                 </a>
               </p>
               <p>
                 <a
-                  href="mailto:info@dousocial.com"
+                  href="mailto:info@example.com"
                   className="transition hover:text-ink"
                 >
-                  info@dousocial.com
+                  info@example.com
                 </a>
               </p>
             </address>
