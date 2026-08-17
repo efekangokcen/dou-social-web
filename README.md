@@ -57,6 +57,34 @@ The platform connects to a **Supabase Cloud (PostgreSQL)** backend for storing a
 
 ---
 
+## 🗄️ Step-by-Step Database Setup & Provisioning Guide
+
+To run DOU Social Web with your own backend:
+
+### 1. Create a Supabase Project
+- Create a project at [Supabase](https://supabase.com).
+- Copy your `Project URL` and `service_role` key from **Settings → API**.
+
+### 2. Setup SQL Schema & Storage Bucket
+In **Supabase Dashboard → SQL Editor**, run:
+- `supabase/influencers-schema-update.sql` — Creates `influencer_basvurulari` table, indexes, public read policy, and automatically provisions the `influencer-media` storage bucket with demo creator data.
+
+### 3. Configure Environment Variables
+```bash
+cp .env.example .env.local
+```
+```env
+NEXT_PUBLIC_SITE_URL="http://localhost:3000"
+NEXT_PUBLIC_SUPABASE_URL="https://[YOUR-PROJECT-REF].supabase.co"
+SUPABASE_SERVICE_ROLE_KEY="[YOUR-SERVICE-ROLE-KEY]"
+OPENAI_API_KEY="sk-your-openai-api-key"
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY="your-recaptcha-site-key"
+RECAPTCHA_SECRET_KEY="your-recaptcha-secret"
+GOOGLE_PLACES_API_KEY="your-google-places-api-key"
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
